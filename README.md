@@ -19,14 +19,14 @@ A compact smart room clock and weather monitor powered by an **ESP32 DevKit V1**
 * **Sensor:** DHT11 (Temperature & Humidity Sensor)
 * **Connectivity:** Built-in Wi-Fi (ESP32)
 
-  1. Connecting the OLED Display (0.96" SSD1306, I2C)
-VCC (or VIN) on the display ➔ to 3V3 
+ **1. Connecting the 0.96 OLED Display**
+VCC (or VIN) on the display ➔ to **3V3** 
 GND on the display ➔ to GND 
 SCL on the display ➔ to GPIO 22 (or D22) 
 SDA on the display ➔ to GPIO 21 (or D21)
 
-2. Connecting the DHT11 Temperature Sensor
-VCC (or +) on the sensor ➔ to 3V3
+**2. Connecting the DHT11 Temperature Sensor**
+VCC (or +) on the sensor ➔ to **3V3**
 GND (or -) on the sensor ➔ to GND
 DATA (or OUT / S) on the sensor ➔ to GPIO 4 (or D4)
   
