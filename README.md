@@ -18,6 +18,7 @@ A compact smart room clock and weather monitor powered by an **ESP32 DevKit V1**
 * **Display:** 0.96" OLED Display (I2C, SSD1306, 128x64 resolution)
 * **Sensor:** DHT11 (Temperature & Humidity Sensor)
 * **Connectivity:** Built-in Wi-Fi (ESP32)
+  
 
  **1. Connecting the 0.96 OLED Display**
 VCC (or VIN) on the display ➔ to **3V3** 
